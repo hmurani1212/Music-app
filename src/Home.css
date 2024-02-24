@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: arial;
+}
+
+#empty {
+    display: none;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: red;
+    display: flex;
+    float: left;
+}
+
+ul li {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.li {
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+#profile {
+    position: relative;
+    float: left;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.heading {
+    margin: 20px;
+    text-align: center;
+}
+
+#myname {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#myemail {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn {
+    position: relative;
+    height: 40px;
+    width: 160px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#Accountbtn {
+    display: flex;
+    justify-content: center;
+}
+
+.dtext {
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    border-top: 30px solid rgb(92, 91, 91);
+    background-color: black;
+    line-height: 40px;
+    color: white;
+    overflow-x: scroll;
+}
+
+.copy {
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    left: 200px;
+    top: 20px;
+    float: left;
+    z-index: 1;
+    background-color: rgb(92, 91, 91);
+    color: white;
+}
+
+nav1 {
+    display: none;
+}
+
+
+.main {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.line {
+    background-color: black;
+    margin-top: 20px;
+}
+
+.line1 {
+    height: 2px;
+    margin: 3px;
+    width: 30px;
+    background-color: white;
+}
+
+@media(max-width:625px) {
+    nav {
+        position: relative;
+        max-width: 900px;
+        max-height: 70px;
+        background-color: black;
+        color: red;
+        display: flex;
+        float: left;
+    }
+
+    body {
+        background-color: red;
+    }
+
+}
